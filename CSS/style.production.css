@@ -229,11 +229,10 @@ textarea{
   text-align: center;
   height: 250px;
   padding-top: 100px;
-  text-decoration: none !important;
 }
 
-.social-media{
-  text-decoration: none !important;
+.social-media_item {
+  text-decoration: none
 }
 
 @-webkit-keyframes color-change {
@@ -296,8 +295,8 @@ textarea{
 }
 
 .cloud-front {
-  -webkit-animation-duration: 30s;
-          animation-duration: 30s;
+  -webkit-animation-duration: 15s;
+          animation-duration: 15s;
   -webkit-animation-name: cloud-move;
           animation-name: cloud-move;
   -webkit-animation-iteration-count: infinite;

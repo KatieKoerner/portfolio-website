@@ -189,19 +189,19 @@ textarea{
   margin: 0 auto;
 }
 
-.page-footer {
+.page-footer{
   clear: both;
   display: flex;
   flex-direction: column;
   text-align: center;
   height: 250px;
   padding-top: 100px;
-  text-decoration: none !important;
 }
 
-.social-media{
-  text-decoration: none !important;
+.page-footer a{
+  text-decoration: none;
 }
+
 
 @keyframes color-change {
   0% {
@@ -250,7 +250,7 @@ textarea{
 }
 
 .cloud-back {
-  animation-duration: 34s;
+  animation-duration: 15s;
   animation-name: cloud-move-reverse;
   animation-iteration-count: infinite;
   animation-direction: alternate;
